@@ -1,5 +1,5 @@
 {
-  "name": "localforage-session-driver",
+  "name": "@socheatsok78/localforage-session-driver",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:socheatsok78/localforage-session-driver.git",
