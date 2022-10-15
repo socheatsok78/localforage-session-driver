@@ -16,7 +16,9 @@ console.log(`Building for ${NODE_ENV}...`)
 let result = esbuild.buildSync({
     entryPoints: ['src/index.js'],
     bundle: true,
-    platform: 'node',
+    treeShaking: true,
+    platform: 'browser',
+    format: 'cjs',
     target: [
         'es2020',
         'chrome58',
