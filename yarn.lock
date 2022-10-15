@@ -188,6 +188,11 @@ lie@3.1.1:
   dependencies:
     immediate "~3.0.5"
 
+localforage-types@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/localforage-types/-/localforage-types-1.0.0.tgz#ad81d48bfab86a9d76bdfbccda8d062c3cb662e3"
+  integrity sha512-pEuRUEdyDfoIp7j9hGMrpK3tU75aCiR6TbibXwzHZy6SV+J6Xx6fIfkbH3mvXSoG6Nl5vLxLuvg7OAGNrDRZuw==
+
 localforage@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.10.0.tgz#5c465dc5f62b2807c3a84c0c6a1b1b3212781dd4"
