@@ -10,6 +10,9 @@
     "dev": "node scripts/build.js",
     "build": "NODE_ENV=production node scripts/build.js"
   },
+  "peerDependencies": {
+    "localforage": "*"
+  },
   "devDependencies": {
     "esbuild": "^0.14.29",
     "localforage": "^1.10.0",
