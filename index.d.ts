@@ -1,5 +1,7 @@
+import "localforage-types"
+
 declare module "localforage" {
-    export interface LocalForage {
+    export interface LocalForageExtra {
         SESSIONSTORAGE: string;
     }
 }
