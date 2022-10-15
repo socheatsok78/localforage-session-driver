@@ -1,2 +1,5 @@
-// Export the SessionStorage wrapper driver
-export const SESSIONSTORAGE: string
+declare module "localforage" {
+    export interface LocalForage {
+        SESSIONSTORAGE: string;
+    }
+}
