@@ -3,11 +3,11 @@
 // side-effects (all data will be serialized on save and only data that
 // can be converted to a string via `JSON.stringify()` will be saved).
 
-import serializer from 'localforage/src/utils/serializer';
-import Promise from 'localforage/src/utils/promise';
-import executeCallback from 'localforage/src/utils/executeCallback';
-import normalizeKey from 'localforage/src/utils/normalizeKey';
-import getCallback from 'localforage/src/utils/getCallback';
+import serializer from './utils/serializer';
+import Promise from './utils/promise';
+import executeCallback from './utils/executeCallback';
+import normalizeKey from './utils/normalizeKey';
+import getCallback from './utils/getCallback';
 
 function isSessionStorageValid() {
   try {
