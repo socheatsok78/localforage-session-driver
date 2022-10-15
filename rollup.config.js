@@ -16,7 +16,11 @@ function config({ name, input, format, minify, ext = "js" }) {
             name,
             format,
             sourcemap: true,
+            globals: {
+                'localforage': 'LocalForage'
+            },
         },
+        external: ['localforage'],
         plugins: [
             json(),
             nodeResolve({

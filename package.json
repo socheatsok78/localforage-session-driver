@@ -1,6 +1,6 @@
 {
   "name": "localforage-session-driver",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/umd/index.js",
   "repository": "git@github.com:socheatsok78/localforage-session-driver.git",
   "author": "Socheat Sok <socheatsok78@gmail.com>",
