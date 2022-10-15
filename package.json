@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:socheatsok78/localforage-session-driver.git",
-  "author": "Socheat Sok <alex@socheat.net>",
+  "author": "Socheat Sok <socheatsok78@gmail.com>",
   "license": "MIT",
   "typings": "index.d.ts",
   "scripts": {
